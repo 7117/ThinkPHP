@@ -9,15 +9,6 @@ class Index extends Controller
 {
     public function index()
     {
-        
-        print_r($this->request->param());
-        
-        $data = Db::name('user')->find();
-
-        $this->assign('data',$data);
-
-        return $this->fetch();
-
-
+        echo "1";
     }
 }
