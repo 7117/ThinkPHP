@@ -17,7 +17,5 @@ return [
         ':id'   => ['index/hello', ['method' => 'get'], ['id' => '\d+']],
         ':name' => ['index/hello', ['method' => 'post']],
     ],
-//    []表示可以有也可以没有   :name表示的是必须有
-    'hello/[:name]'=> ['index/hello',['method'=>'get','ext'=>'html']]
 
 ];
