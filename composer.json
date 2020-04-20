@@ -17,17 +17,14 @@
     ],
     "require": {
         "php": ">=5.4.0",
-        "topthink/framework": "5.0.*"
-    },
-    "autoload": {
-        "psr-4": {
-            "app\\": "application"
-        }
+        "topthink/framework": "*"
     },
     "extra": {
         "think-path": "thinkphp"
     },
+    "minimum-stability": "dev",
     "config": {
-        "preferred-install": "dist"
+        "preferred-install": "dist",
+        "secure-http": true
     }
 }
